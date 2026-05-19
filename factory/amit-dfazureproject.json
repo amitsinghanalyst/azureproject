@@ -1,0 +1,15 @@
+{
+	"name": "amit-dfazureproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "35863a08-380a-4ad5-a848-27fd8de116e1",
+		"tenantId": "db29e6d5-e043-4034-b785-5f7b24692e15"
+	}
+}
